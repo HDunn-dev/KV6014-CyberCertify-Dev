@@ -251,7 +251,7 @@ function PhishingQuizPage() {
         {/* Achievement Popup */}
         {showAchievement && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-gradient-to-br from-yellow-400 via-orange-400 to-red-500 rounded-2xl p-1 animate-bounce">
+            <div className="bg-gradient-to-br from-yellow-400 via-orange-400 to-red-500 rounded-2xl p-1">
               <div className="bg-white rounded-xl p-8 text-center">
                 <div className="text-7xl mb-4 animate-pulse">🏆</div>
                 <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-600 mb-2">
